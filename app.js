@@ -19,7 +19,7 @@ app.get('/ProductDetails', (req, res) => {
 app.get('/shoppingcart', (req, res) => {
     res.render('shoppingcart'); // Điều này giả định rằng bạn đã tạo file shoppingcart.ejs
 });
-
-app.listen(3000, () => {
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
     console.log('Server is running on http://localhost:3000');
 });
