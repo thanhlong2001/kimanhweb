@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5; /* Màu nền */
+}
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 350px;
+  text-align: center;
+}
+
+.header h2 {
+  color: #1877f2;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.header p {
+  font-size: 14px;
+  color: #65676b;
+  margin-bottom: 20px;
+}
+
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #1877f2;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #165eab;
+}
+
+.btn-secondary {
+  background-color: #42b72a;
+  color: white;
+}
+
+.create-account-btn {
+  background-color: #f0f2f5;
+  color: #1877f2;
+  border: 1px solid #dddfe2;
+  margin-top: 10px;
+}
+
+.intro-links p {
+  font-size: 12px;
+  color: #65676b;
+  margin-top: 20px;
+}
+
+.intro-links a {
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.intro-links a:hover {
+  text-decoration: underline;
+}
+.hip-hop {
+  font-family: 'Montserrat', sans-serif; /* Font chữ */
+  font-size: 48px; /* Kích thước chữ */
+  color: #ff5733; /* Màu sắc */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Hiệu ứng đổ bóng */
+  transform: rotate(-5deg); /* Nghiêng tiêu đề */
+  letter-spacing: 2px; /* Khoảng cách giữa các chữ cái */
+}
