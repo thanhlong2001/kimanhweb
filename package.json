@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "day la project",
   "main": "index.js",
+  "homepage": "https://github.com/thanhlong2001/kimanhweb.git",
   "scripts": {
     "start": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "thanh long",
   "license": "ISC",
